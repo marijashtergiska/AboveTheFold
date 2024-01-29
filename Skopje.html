@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skopje</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./Skopje.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+       <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+       <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="Skopje.js"></script>
+</head>
+
+<body>
+<!--   // header-->
+<div class="header">
+    <div class="collapse navbar-collapse ">
+        <div class="search-container" >
+            <form class="searchbar">
+                <input type="text" placeholder="Search.." name="search" class="toogle" title="The Search bar is currently out of work.">
+            </form>
+        </div>
+        <ul class="myNavbar" class="nav navbar-nav">
+            <li><a href="Skopje.html">Home</a></li>
+            <li><a href="about.html">Contact</a></li>
+            <li><a href="TouristInfo.html">Tourist info</a></li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+        </div>
+   <!--     //body part 1 welcome-->
+        <div class="jumbotron">
+        <div class="col-sm-8 text-left">
+                <h1 class="title">Welcome to Skopje</h1>
+            <h3 class="title">The city of solidarity</h3>
+           </div>
+              <p id="skpinfo"> Skopje is on the upper course of the Vardar River, and is on a major north–south Balkan route between Belgrade and Athens. It is a centre for the chemical, timber, textile, leather, printing, and metal-processing industries. Industrial development of the city has been accompanied by development of the trade, logistics, and banking sectors, as well as an emphasis on the fields of transportation, culture and sport. Skopje has a population of 422,540 inhabitants in its urban area and 526,502 in ten municipalities that form the city.</p>
+            <hr> </div>
+              <div class="carousel">
+                  <div class="changePhoto">
+                    <img width=100% height=550px class="Skopje" src="https://www.lot.com/content/dam/lot/lot-com/destination-photos/macedonia/skopje/Skopje-2.jpg">
+                  </div>
+
+                     <div class="changePhoto">
+                <img width=100% height=550px class="Skopje" src="https://www.civitatis.com/f/republica-de-macedonia/skopje/visita-guiada-skopje-589x392.jpg" >
+                     </div>
+
+                    <div class="changePhoto">
+                      <img width=100% height=550px class="Skopje" src="https://macedonia-timeless.com/wp-content/uploads/2018/08/skopje-plostad-makedonija.jpg">
+                    </div>
+
+                       <div class="changePhoto">
+                         <img width=100% height=550px class="Skopje" src="https://cdn.getyourguide.com/img/location/5df35ecb415d0.jpeg/99.jpg">
+                       </div>
+
+                 <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+                   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                 </div>
+                 <br>
+
+                 <div style="text-align:center">
+                   <span class="photoNumber" onclick="currentSlide(1)"></span>
+                   <span class="photoNumber" onclick="currentSlide(2)"></span>
+                   <span class="photoNumber" onclick="currentSlide(3)"></span>
+                   <span class="photoNumber" onclick="currentSlide(4)"></span>
+                 </div>
+
+              </div>
+                  <hr>
+            <!--body part 2-->
+
+            <div>
+   <ul id="menu">
+       <h3>Info Box</h3>
+       <p>Find every place in Skopje with just one click!</p>
+       <br>
+     <li><div>Food & Drinks</div>
+     <ul>
+       <li><div>Bars</div></li>
+       <li><div>Lounge Bars</div></li>
+       <li><div>Restaurants</div>
+      <ul>
+        <li><div>Italian</div></li>
+        <li><div>Chineese</div></li>
+        <li><div>Mexican</div></li>
+        <li><div>Traditional</div></li>
+        <li><div>Fancy Dine</div></li>
+        <li><div>Dessert</div></li>
+        <li><div>Burgers</div></li>
+      </ul>
+       </li>
+       <li><div>Coffee Shops</div></li>
+       <li><div>Vegan Places</div></li>
+       <li><div>Pet-Friendly</div></li>
+       <li><div>Outdoors</div></li>
+     </ul>
+     </li>
+     <li><div>Transport</div>
+          <ul>
+            <li><div>Bus</div></li>
+            <li><div>Taxi</div></li>
+            <li><div>Airport Transport</div></li>
+            <li><div>Train</div></li>
+          </ul>
+     </li>
+     <li><div>Emergency Information</div>
+    <ul>
+      <li><div>Police</div></li>
+      <li><div>Ministry of Foreign Affairs</div></li>
+      <li><div>Firefighters</div></li>
+      <li><div>Hospital Locations</div></li>
+      <li><div>Red Cross</div></li>
+      <li><div>Pharmacies</div></li>
+      <li><div>Ambulance</div></li>
+    </ul>
+     </li>
+   </ul>
+            </div>
+
+
+<!--            // body part 3 form-->
+             <hr>
+             <h3 >Want us to send you Skopje's newsletter?</h3>
+             <p id="formtext">Fill in the form and get all the information about the city in your mail box!</p>    
+            <div>
+                <form>
+                    <label class="formlabel">First name:<input class="formedit" type="text" placeholder="Your name..."></label>      <br>
+                    <label class="formlabel">Last name:<input class="formedit" type="text" placeholder="Your surname..."></label>          <br>
+                    <label class="formlabel">Email:<input class="formedit" type="email" placeholder="emailexample@gmail.com"></label>          <br>
+                    <label class="formlabel">Feel free to send us a message about anything that intrests you</label>
+                    <br>
+                    <input id="emailbox" type="text" placeholder="Type your message...">
+                    <br>
+                    <br>
+                    <p class="formlabel">Do you agree with our terms of use?</p>
+                    <input type="radio" id="yes" value="yes"><label>Yes</label>
+                    <input type="radio" id="no" value="no"><label>No</label>
+                    <button id="submitbutton" type="submit">Submit</button>
+                </form>
+            </div>
+
+
+
+        <div class="col-sm-2 sidenav">
+        </div>
+    </div>
+</div>
+
+<br>
+<!--         //footer-->
+<footer class="container-fluid text-center">
+    
+    <h3>Follow us on social media</h3>
+    <br>
+    <div class="row" id="row">
+        <div class="col-sm-1">
+        <img src="data:image/png;base64,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" class="img-responsive" style="width:85%" alt="Image">
+        </div>
+        <div class="col-sm-1">                                                                                                        
+            <img src="https://static-00.iconduck.com/assets.00/instagram-icon-1024x1024-qg6hj8z0.png" class="img-responsive" style="width:96%" alt="Image">
+        </div>
+        <div class="col-sm-1">
+            <img src="https://www.pinclipart.com/picdir/big/344-3445571_twitter-png-logo-white-round-twitter-logo-png.png" class="img-responsive" style="width:85%" alt="Image">
+        </div>
+        <div class="col-sm-1">
+            <img src="https://icon-library.com/images/youtube-circle-icon-png/youtube-circle-icon-png-3.jpg" class="img-responsive" style="width:85%" alt="Image">
+        </div>
+        </div>
+
+
+    <div class="row" id="footerpages">
+        <div id="home" class="col-sm-1">
+               <p>Home</p>
+        </div>
+        <div id="contact" class="col-sm-1">
+           <p>Contact </p>
+        </div>
+         <div id="info" class="col-sm-1">
+             <p>Information</p>
+         </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
